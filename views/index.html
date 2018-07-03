@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>PJC1</title>
+        <title>P.J.C.1.</title>
 
-    <!-- STYLESHEETS -->
-    <!-- <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="styles/styles.css">
+        <!-- STYLESHEETS -->
+        <!-- <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles/styles.css">
 
-    <!-- VENDOR SCRIPTS -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+        <!-- VENDOR SCRIPTS -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
 
-    <!-- APPLICATION SCRIPTS -->
-    <script src="scripts/app.js"></script>
-
-  </head>
-  <body>
-    <div>
-      <h1>Hello world</h1>
-    </div>
-  </body>
+        <!-- APPLICATION SCRIPTS -->
+        <script src="scripts/app.js"></script>
+    </head>
+    <body>
+        <div class="navbar" id="navbar-id">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <section id="about">
+            <h1>About</h1>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+        </section>
+    </body>
 </html>
