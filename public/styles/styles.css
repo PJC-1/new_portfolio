@@ -88,6 +88,36 @@ body, html {
 
 
 
+/*********/
+/* ABOUT */
+/*********/
+
+#about {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#about h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    margin: 30px 0 40px;
+    line-height: 40px;
+    font-size: 32px;
+}
+
+#about div {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+
+
 /*******************************/
 /* MEDIA QUERY MAX-WIDTH 1000px */
 /*******************************/
@@ -114,6 +144,24 @@ body, html {
     }
     #arrow-down {
         font-size: 74px;
+    }
+
+    /* About */
+    #about {
+        padding: 78px 0;
+    }
+    #about h1 {
+        font-size: 50px;
+        margin-top: 18px;
+    }
+    #about p {
+        margin: 35px 0 40px;
+        line-height: 39px;
+        font-size: 30px;
+    }
+    #about div {
+        margin-left: 120px;
+        margin-right: 120px;
     }
 }
 
@@ -147,6 +195,24 @@ body, html {
     }
     #arrow-down {
         font-size: 73px;
+    }
+
+    /* About */
+    #about {
+        padding: 75px 0;
+    }
+    #about h1 {
+        font-size: 47px;
+        margin-top: 15px;
+    }
+    #about p {
+        margin: 30px 0 40px;
+        line-height: 38px;
+        font-size: 27px;
+    }
+    #about div {
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }
 
@@ -203,6 +269,24 @@ body, html {
     #arrow-down {
         font-size: 68px;
     }
+
+    /* About */
+    #about {
+        padding: 75px 0;
+    }
+    #about h1 {
+        font-size: 43px;
+        margin-top: 10px;
+    }
+    #about p {
+        margin: 30px 0 40px;
+        line-height: 35px;
+        font-size: 23px;
+    }
+    #about div {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
 }
 
 
@@ -236,5 +320,23 @@ body, html {
     }
     #arrow-down {
         font-size: 50px;
+    }
+
+    /* About */
+    #about {
+        padding: 60px 0;
+    }
+    #about h1 {
+        font-size: 29px;
+        margin-top: 5px;
+    }
+    #about p {
+        margin: 20px 0 30px;
+        line-height: 27px;
+        font-size: 17px;
+    }
+    #about div {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
