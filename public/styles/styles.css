@@ -226,9 +226,10 @@ body, html {
         margin-right: auto;
     }
     .icon-row {
-        width: 830px;
+        width: 650px;
     }
 }
+
 
 
 /*******************************/
@@ -283,6 +284,7 @@ body, html {
         float: none;
         margin-left: auto;
         margin-right: auto;
+        width: 610px;
     }
 }
 
@@ -340,8 +342,10 @@ body, html {
         float: none;
         margin-left: auto;
         margin-right: auto;
+        width: 610px;
     }
 }
+
 
 
 /*******************************/
@@ -356,12 +360,17 @@ body, html {
         padding-right: 15px;
         width: 600px;
     }
+    .icon-row  {
+        width: 600px;
+    }
     .icon-div {
         float: none;
         margin-left: auto;
         margin-right: auto;
+        width: 560px;
     }
 }
+
 
 
 /*******************************/
@@ -376,10 +385,15 @@ body, html {
         padding-right: 15px;
         width: 500px;
     }
+    .icon-row {
+        width: 500px;
+    }
     .icon-div {
         float: none;
+        width: 460px;
     }
 }
+
 
 
 /*******************************/
@@ -453,7 +467,11 @@ body, html {
         padding-right: 15px;
         width: 420px;
     }
+    .icon-row {
+        width: 420px;
+    }
     .icon-div {
+        width: 380px;
         float: none;
         margin-left: auto;
         margin-right: auto;
@@ -509,11 +527,13 @@ body, html {
     .about-container {
         margin-right: auto;
         margin-left: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 300px;
+        width: 250px;
+    }
+    .icon-row {
+        width: 250px;
     }
     .icon-div {
+        width: 210px;
         float: none;
         margin-left: auto;
         margin-right: auto;
