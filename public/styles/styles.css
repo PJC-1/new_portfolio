@@ -104,9 +104,9 @@ body, html {
 }
 
 .about-description {
-    margin: 40px 0 110px;
-    line-height: 40px;
-    font-size: 30px;
+    margin: 70px 0 115px;
+    line-height: 45px;
+    font-size: 28px;
     text-align: justify;
 }
 
@@ -164,13 +164,8 @@ body, html {
     }
     .icon-div {
         width: 29%;
-        /* float: left;
-        position: relative;
-        padding-left: 20px;
-        padding-right: 20px; */
     }
     .icon-row {
-        /* display: inline-block; */
         width: 1000px;
     }
 }
@@ -189,8 +184,11 @@ body, html {
         padding-right: 15px;
         width: 950px;
     }
+    .about-description {
+        margin: 60px 0 135px;
+    }
     .icon-div {
-        width: 29%;
+        width: 65%;
         float: none;
         margin-left: auto;
         margin-right: auto;
@@ -202,6 +200,9 @@ body, html {
     .icon-row {
         /* display: inline-block; */
         width: 830px;
+    }
+    .icon-div p {
+        margin: 0px auto 160px;
     }
 }
 
@@ -219,14 +220,20 @@ body, html {
         padding-right: 15px;
         width: 850px;
     }
+    .about-description {
+        margin: 50px 0 110px;
+    }
     .icon-div {
-        width: 27%;
+        width: 65%;
         float: none;
         margin-left: auto;
         margin-right: auto;
     }
     .icon-row {
         width: 650px;
+    }
+    .icon-div p {
+        margin: 0px auto 150px;
     }
 }
 
@@ -269,9 +276,9 @@ body, html {
         margin-top: 18px;
     }
     .about-description {
-        margin: 35px 0 40px;
+        margin: 50px 0 130px;
         line-height: 39px;
-        font-size: 30px;
+        font-size: 26px;
     }
     .about-container {
         margin-right: auto;
@@ -285,6 +292,9 @@ body, html {
         margin-left: auto;
         margin-right: auto;
         width: 610px;
+    }
+    .icon-div p {
+        margin: 0px auto 140px;
     }
 }
 
@@ -327,9 +337,9 @@ body, html {
         margin-top: 15px;
     }
     .about-description {
-        margin: 30px 0 40px;
+        margin: 50px 0 130px;
         line-height: 38px;
-        font-size: 27px;
+        font-size: 24px;
     }
     .about-container {
         margin-right: auto;
@@ -343,6 +353,9 @@ body, html {
         margin-left: auto;
         margin-right: auto;
         width: 610px;
+    }
+    .icon-div p {
+        margin: 0px auto 130px;
     }
 }
 
@@ -360,6 +373,9 @@ body, html {
         padding-right: 15px;
         width: 600px;
     }
+    .about-description {
+        margin: 50px 0 125px;
+    }
     .icon-row  {
         width: 600px;
     }
@@ -368,6 +384,9 @@ body, html {
         margin-left: auto;
         margin-right: auto;
         width: 560px;
+    }
+    .icon-div p {
+        margin: 0px auto 120px;
     }
 }
 
@@ -385,12 +404,18 @@ body, html {
         padding-right: 15px;
         width: 500px;
     }
+    .about-description {
+        margin: 50px 0 125px;
+    }
     .icon-row {
         width: 500px;
     }
     .icon-div {
         float: none;
         width: 460px;
+    }
+    .icon-div p {
+        margin: 0px auto 110px;
     }
 }
 
@@ -456,7 +481,7 @@ body, html {
         margin-top: 10px;
     }
     .about-description {
-        margin: 30px 0 40px;
+        margin: 50px 0 110px;
         line-height: 35px;
         font-size: 23px;
     }
@@ -475,6 +500,15 @@ body, html {
         float: none;
         margin-left: auto;
         margin-right: auto;
+    }
+    .icon-div p {
+        margin: 0px auto 100px;
+    }
+    .icon-div h3 {
+        font-size: 27px;
+    }
+    .icon-images {
+        font-size: 55px;
     }
 }
 
@@ -519,23 +553,40 @@ body, html {
         font-size: 29px;
         margin-top: 5px;
     }
+    .about-me {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
     .about-description {
-        margin: 20px 0 30px;
-        line-height: 27px;
+        margin: 40px 0 100px;
+        line-height: 30px;
         font-size: 17px;
     }
     .about-container {
         margin-right: auto;
         margin-left: auto;
-        width: 250px;
+        width: 310px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .icon-row {
-        width: 250px;
+        width: 310px;
     }
     .icon-div {
-        width: 210px;
+        width: 310px;
         float: none;
         margin-left: auto;
         margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .icon-div p {
+        margin: 0px auto 95px;
+    }
+    .icon-div h3 {
+        font-size: 20px;
+    }
+    .icon-images {
+        font-size: 50px;
     }
 }
