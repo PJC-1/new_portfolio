@@ -164,7 +164,7 @@ body, html {
 #projects h1 {
     font-size: 50px;
     margin-top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .project-row {
@@ -253,21 +253,30 @@ body, html {
     opacity: unset;
 } */
 
-#projects .project-row .project-item-name-div h1 small {
+#projects .project-row .project-item-name-div p {
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 15px;
-    letter-spacing: .05em;
+    letter-spacing: .15em;
     font-weight: 500;
     font-style: normal;
 }
 
-#projects .project-row .project-item-name-div h1 b {
+#projects .project-row .project-item-name-div h1 {
     display: block;
     font-size: 42px;
-    margin-bottom: 50px;
-    font-weight: 100;
-    font-style: normal;
+    margin-bottom: 40px;
+    font-weight: bold;
+    letter-spacing: -0.105em;
+    /* font-style: normal; */
+}
+
+.project-description {
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 40px;
 }
 
 /********************************/
@@ -355,6 +364,14 @@ body, html {
     .icon-div p {
         margin: 0px auto 150px;
     }
+
+    /* Projects */
+    .project-li {
+        width: 100%;
+    }
+    .project-row li {
+        height: 615px;
+    }
 }
 
 
@@ -415,6 +432,11 @@ body, html {
     }
     .icon-div p {
         margin: 0px auto 140px;
+    }
+
+    /* Projects */
+    .project-row li {
+        height: 560px;
     }
 }
 
@@ -477,6 +499,11 @@ body, html {
     .icon-div p {
         margin: 0px auto 130px;
     }
+
+    /* Projects */
+    .project-row li {
+        height: 500px;
+    }
 }
 
 
@@ -508,6 +535,11 @@ body, html {
     .icon-div p {
         margin: 0px auto 120px;
     }
+
+    /* Projects */
+    .project-row li {
+        height: 500px;
+    }
 }
 
 
@@ -537,6 +569,11 @@ body, html {
     .icon-div p {
         margin: 0px auto 110px;
     }
+
+      /* Projects */
+      .project-row li {
+          height: 500px;
+      }
 }
 
 
@@ -630,6 +667,11 @@ body, html {
     .icon-images {
         font-size: 55px;
     }
+
+    /* Projects */
+    .project-row li {
+        height: 500px;
+    }
 }
 
 
@@ -708,5 +750,10 @@ body, html {
     }
     .icon-images {
         font-size: 50px;
+    }
+
+    /* Projects */
+    .project-row li {
+        height: 375px;
     }
 }
