@@ -333,6 +333,17 @@ body, html {
     .icon-div p {
         margin: 0px auto 160px;
     }
+
+    /* Projects */
+    .project-description {
+        padding-left: 25px;
+        padding-right: 25px;
+        /* font-size: 17px; */
+    }
+    #projects .project-row .project-item-name-div p {
+        font-size: 14px;
+        letter-spacing: .13em;
+    }
 }
 
 
@@ -371,6 +382,17 @@ body, html {
     }
     .project-row li {
         height: 615px;
+    }
+    .project-description {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    #projects .project-row .project-item-name-div h1 {
+        font-size: 50px;
+    }
+    #projects .project-row .project-item-name-div p {
+        font-size: 19px;
+        letter-spacing: .16em;
     }
 }
 
@@ -504,6 +526,10 @@ body, html {
     .project-row li {
         height: 500px;
     }
+    .project-description {
+        padding-left: 175px;
+        padding-right: 175px;
+    }
 }
 
 
@@ -540,6 +566,10 @@ body, html {
     .project-row li {
         height: 500px;
     }
+    .project-description {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
 
@@ -570,10 +600,18 @@ body, html {
         margin: 0px auto 110px;
     }
 
-      /* Projects */
-      .project-row li {
-          height: 500px;
-      }
+    /* Projects */
+    .project-row li {
+        height: 500px;
+    }
+    .project-description {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #projects .project-row .project-item-name-div p {
+        font-size: 18px;
+        letter-spacing: .15em;
+    }
 }
 
 
@@ -672,6 +710,17 @@ body, html {
     .project-row li {
         height: 500px;
     }
+    .project-description {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .project-description {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    #projects .project-row .project-item-name-div p {
+        font-size: 17px;
+    }
 }
 
 
@@ -755,5 +804,18 @@ body, html {
     /* Projects */
     .project-row li {
         height: 375px;
+    }
+    .project-description {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 17px;
+    }
+    #projects .project-row .project-item-name-div h1 {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    #projects .project-row .project-item-name-div p {
+        font-size: 12px;
+        letter-spacing: .09em;
     }
 }
