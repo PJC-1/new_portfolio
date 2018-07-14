@@ -1,3 +1,7 @@
+///////////////
+// HAMBURGER //
+///////////////
+
 function hamburger() {
     var x = document.getElementById('navbar-id');
     if(x.className === 'navbar') {
@@ -7,8 +11,13 @@ function hamburger() {
     }
 }
 
+
+
+//////////////
+// CAROUSEL //
+//////////////
+
 var slideIndex = 1;
-// showSlides(slideIndex);
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
