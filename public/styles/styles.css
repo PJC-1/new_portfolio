@@ -327,7 +327,7 @@ body, html {
 }
 
 .close {
-    color: #000000;
+    color: #ffffff;
     font-size: 50px;
     line-height: 25px;
     position: fixed;
@@ -340,8 +340,12 @@ body, html {
     text-decoration: none;
 }
 
+.close:hover {
+    color: #3f629a;
+}
+
 .modalDialog header {
-    background-color: #041c64;
+    background-color: #6196bd;
 }
 
 .item-content header {
@@ -375,6 +379,7 @@ body, html {
 .container h2 b {
     font-weight: 100;
     font-style: normal;
+    font-family: Helvetica;
     display: block;
     font-size: 60px;
     margin-top: 50px;
