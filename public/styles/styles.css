@@ -311,7 +311,7 @@ body, html {
     height: 100%;
     background-size: cover!important;
     background-color: #f9f9f9;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     color:#000000;
     z-index: 99999;
     opacity:0;
@@ -324,6 +324,39 @@ body, html {
 .modalDialog:target {
     opacity:1;
     pointer-events: auto;
+}
+
+.modal-description {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    padding: 70px 0;
+    width: 100%;
+}
+
+.btn {
+    margin: 5px auto;
+    padding: 10px 20px;
+    outline: 0;
+    font-size: 14px;
+    position: relative;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    border-radius: 40px;
+    border: 3px solid #666;
+    color: #C5C5C5;
+    text-decoration: none;
+    background-color: #333;
+}
+
+section .btn:hover, section .btn:active {
+    color: #333;
+    background-color: #D8D8D8;
+    border: 3px solid #EAEBED;
 }
 
 .close {
