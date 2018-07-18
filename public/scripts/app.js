@@ -13,6 +13,30 @@ function hamburger() {
 
 
 
+/////////////////////
+// TOGGLE OVERFLOW //
+/////////////////////
+
+var overflowSwitch = false;
+
+function toggleOverflow() {
+    if(overflowSwitch === false) {
+        console.log("toggle is false...");
+        overflowSwitch = true;
+        document.getElementById("bodyID").style.overflowY = "hidden";
+    } else {
+        console.log("toggle is true...");
+        overflowSwitch = false;
+        document.getElementById("bodyID").style.overflowY = "auto";
+    }
+}
+
+// document.getElementById("bodyID").addEventListener("click", function() {
+//     console.log("Testing toggleOverflow event...")
+// });
+
+
+
 //////////////
 // CAROUSEL //
 //////////////
