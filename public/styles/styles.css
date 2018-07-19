@@ -375,7 +375,7 @@ section .btn:hover, section .btn:active {
 }
 
 .close:hover {
-    color: #3f629a;
+    color: #446c89;
 }
 
 .modalDialog header {
@@ -465,6 +465,13 @@ section .btn:hover, section .btn:active {
     margin-top: 18px;
 }
 
+#modal-header2 {
+    background-color: #6bb686;
+}
+
+#modal-close2:hover {
+    color: #518d66;
+}
 
 
 /************/
