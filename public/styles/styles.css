@@ -311,7 +311,7 @@ body, html {
     height: 100%;
     background-size: cover!important;
     background-color: #f9f9f9;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     color:#000000;
     z-index: 99999;
     opacity:0;
@@ -399,7 +399,7 @@ section .btn:hover, section .btn:active {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 1170px;
+    width: 750px;
 }
 
 .container h2 {
@@ -602,7 +602,7 @@ section .btn:hover, section .btn:active {
 
     /* Modal */
     .container {
-        width: 1000px;
+        width: 700px;
     }
 }
 
@@ -657,7 +657,7 @@ section .btn:hover, section .btn:active {
 
     /* Modal */
     .container {
-        width: 850px;
+        width: 625px;
     }
 }
 
@@ -718,7 +718,7 @@ section .btn:hover, section .btn:active {
     }
     /* Modal */
     .container {
-        width: 750px;
+        width: 575px;
     }
 }
 
@@ -796,7 +796,7 @@ section .btn:hover, section .btn:active {
 
     /* Modal */
     .container {
-        width: 650px;
+        width: 525px;
     }
 }
 
@@ -877,7 +877,7 @@ section .btn:hover, section .btn:active {
     }
     /* Modal */
     .container {
-        width: 600px;
+        width: 500px;
     }
 }
 
@@ -929,7 +929,7 @@ section .btn:hover, section .btn:active {
 
     /* Modal */
     .container {
-        width: 575px;
+        width: 475px;
     }
 }
 
@@ -983,7 +983,7 @@ section .btn:hover, section .btn:active {
 
     /* Modal */
     .container {
-        width: 525px;
+        width: 450px;
     }
 }
 
@@ -1104,7 +1104,7 @@ section .btn:hover, section .btn:active {
 
     /* Modal */
     .container {
-        width: 475px;
+        width: 425px;
     }
 }
 
@@ -1213,6 +1213,8 @@ section .btn:hover, section .btn:active {
 
     /* Modal */
     .container {
-        width: 290px;
+        width: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }

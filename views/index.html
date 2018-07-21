@@ -13,7 +13,7 @@
         <!-- APPLICATION SCRIPTS -->
         <script src="scripts/app.js"></script>
     </head>
-    <body id="bodyID" style="overflow-y:scroll">
+    <body id="bodyID" style="overflow-y:auto">
         <div class="navbar" id="navbar-id">
             <a class="active" href="#home">Home</a>
             <a href="#about">About</a>
@@ -31,9 +31,9 @@
             <div class="arrow-text">
                 <a href="#about">
                     <!-- <i class="fas fa-arrow-circle-down" id="arrow-down"></i> -->
-                    <i class="fas fa-arrow-alt-circle-down" id="arrow-down"></i>
+                    <!-- <i class="fas fa-arrow-alt-circle-down" id="arrow-down"></i> -->
                     <!-- <i class="fas fa-caret-down" id="arrow-down"></i> -->
-                    <!-- <i class="fa fa-arrow-down" id="arrow-down"></i> -->
+                    <i class="fa fa-arrow-down" id="arrow-down"></i>
                 </a>
             </div>
         </div>
@@ -100,7 +100,7 @@
                                         <b>ARGOS</b>
                                         <small>Social media web application for pet owners</small>
                                     </h2>
-                                    <img src="images/duel4.png">
+                                    <img src="images/argos_landing_mockup_new.png">
                                 </div>
                             </header>
                             <section class="modal-description">
@@ -127,7 +127,7 @@
                     <div class="project-item" id="project-2">
                         <div class="project-item-name">
                             <div class="project-item-name-div">
-                                <a href="#openModal2" class="modal-open">
+                                <a href="#openModal2" onclick="toggleOverflow()" class="modal-open">
                                     <h1>POPOS</h1>
                                 </a>
                                 <h3 class="project-description">
@@ -175,7 +175,7 @@
                     <div class="project-item" id="project-3">
                         <div class="project-item-name">
                             <div class="project-item-name-div">
-                                <a href="#openModal3" class="modal-open">
+                                <a href="#openModal3" onclick="toggleOverflow()" class="modal-open">
                                     <h1>POLASNAP</h1>
                                 </a>
                                 <h3 class="project-description">
@@ -222,7 +222,6 @@
         </section>
         <section id="contact">
             <h1>Contact</h1>
-            <!-- <img src="images/wood.jpg"> -->
         </section>
     </body>
 </html>
