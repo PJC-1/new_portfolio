@@ -67,9 +67,9 @@ body, html {
     float: right;
     color: #000000;
     text-align: center;
-    padding: 20px 21px;
+    padding: 15px 15px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .navbar a:hover {
@@ -368,7 +368,6 @@ section .btn:hover, section .btn:active {
     right: 60px;
     z-index: 1000;
     text-align: center;
-    /* top: 15px; */
     top: 35px;
     width: 30px;
     text-decoration: none;
@@ -417,7 +416,7 @@ section .btn:hover, section .btn:active {
     display: block;
     font-size: 60px;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     letter-spacing: .05em;
     text-transform: uppercase;
 }
@@ -482,99 +481,6 @@ section .btn:hover, section .btn:active {
 }
 
 
-/************/
-/* CAROUSEL */
-/************/
-
-.carousel-container {
-    position: relative;
-    margin: auto;
-    max-width: 1000px;
-    height: 675px;
-}
-
-.slide {
-    display: none;
-    width: 100%;
-    height: 100%;
-}
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 98%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #000000;
-    font-weight: bold;
-    font-size: 30px;
-    transition: 0.6s ease;
-}
-
-.next {
-    right: 0;
-}
-
-.prev  {
-    left: 0;
-}
-
-/* .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-} */
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-    background-color: #717171;
-}
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-#slide1 {
-    background-image: url("../images/argos_events.png");
-    width: 100%;
-    height: 100%;
-}
-
-#slide2 {
-    background-image: url("../images/argos_profile.png");
-    width: 100%;
-    height: 100%;
-}
-
-#slide3 {
-    background-image: url("../images/argos_newsfeed.png");
-    width: 100%;
-    height: 100%;
-}
-
-
 
 /********************************/
 /* MEDIA QUERY MAX-WIDTH 1300px */
@@ -595,6 +501,12 @@ section .btn:hover, section .btn:active {
         width: 1000px;
     }
 
+    /* Navigation Bar */
+    .navbar a {
+        padding: 14px 14px;
+        font-size: 23px;
+    }
+
     /* Projects */
     .project-title {
         width: 1000px;
@@ -603,6 +515,13 @@ section .btn:hover, section .btn:active {
     /* Modal */
     .container {
         width: 700px;
+    }
+    .close {
+        right: 50px;
+        top: 20px;
+    }
+    .item-content header {
+        padding-top: 20px;
     }
 }
 
@@ -641,6 +560,12 @@ section .btn:hover, section .btn:active {
         margin: 0px auto 160px;
     }
 
+    /* Navigation Bar */
+    .navbar a {
+        padding: 13px 13px;
+        font-size: 22px;
+    }
+
     /* Projects */
     .project-description {
         padding-left: 25px;
@@ -658,6 +583,9 @@ section .btn:hover, section .btn:active {
     /* Modal */
     .container {
         width: 625px;
+    }
+    .item-content header {
+        padding-top: 10px;
     }
 }
 
@@ -691,6 +619,12 @@ section .btn:hover, section .btn:active {
         margin: 0px auto 150px;
     }
 
+    /* Navigation Bar */
+    .navbar a {
+        padding: 12px 12px;
+        font-size: 21px;
+    }
+
     /* Projects */
     .project-title {
         width: 850px;
@@ -716,9 +650,23 @@ section .btn:hover, section .btn:active {
         font-size: 19px;
         letter-spacing: .16em;
     }
+
     /* Modal */
     .container {
         width: 575px;
+    }
+    .container h2 b {
+        font-size: 54px;
+    }
+    .container h2 small {
+        font-size: 19px;
+    }
+    .close {
+        top: 18px;
+        right: 45px;
+    }
+    .item-content header {
+        padding-top: 5px;
     }
 }
 
@@ -731,8 +679,8 @@ section .btn:hover, section .btn:active {
 @media screen and (max-width: 1000px)  {
     /* Navigation Bar */
     .navbar a {
-        font-size: 23px;
-        padding: 19px 20px;
+        padding: 11px 11px;
+        font-size: 20px;
     }
 
     /* Hero Image */
@@ -798,6 +746,16 @@ section .btn:hover, section .btn:active {
     .container {
         width: 525px;
     }
+    .container h2 b {
+        font-size: 50px;
+    }
+    .container h2 small {
+        font-size: 17px;
+    }
+    .close {
+        top: 15px;
+        right: 42px;
+    }
 }
 
 
@@ -807,11 +765,6 @@ section .btn:hover, section .btn:active {
 /*******************************/
 
 @media screen and (max-width: 900px)  {
-    /* Navigation Bar */
-    .navbar a {
-        font-size: 22px;
-        padding: 18px 19px;
-    }
 
     /* Hero Image */
     .hero-text h1 {
@@ -879,6 +832,16 @@ section .btn:hover, section .btn:active {
     .container {
         width: 500px;
     }
+    .container h2 b {
+        font-size: 48px;
+    }
+    .container h2 small {
+        font-size: 16px;
+    }
+    .close {
+        top: 10px;
+        right: 38px;
+    }
 }
 
 
@@ -930,6 +893,15 @@ section .btn:hover, section .btn:active {
     /* Modal */
     .container {
         width: 475px;
+    }
+    .container h2 {
+        line-height: 30px;
+    }
+    .container h2 b {
+        font-size: 46px;
+    }
+    .container h2 small {
+        font-size: 15px;
     }
 }
 
@@ -985,6 +957,15 @@ section .btn:hover, section .btn:active {
     .container {
         width: 450px;
     }
+    .container h2 {
+        line-height: 28px;
+    }
+    .container h2 b {
+        font-size: 40px;
+    }
+    .container h2 small {
+        font-size: 14px;
+    }
 }
 
 
@@ -1017,10 +998,6 @@ section .btn:hover, section .btn:active {
         float: none;
         display: block;
         text-align: left;
-    }
-    .navbar a {
-        font-size: 21px;
-        padding: 18px 19px;
     }
 
     /* Hero Image */
@@ -1106,6 +1083,20 @@ section .btn:hover, section .btn:active {
     .container {
         width: 425px;
     }
+    .container h2 {
+        line-height: 26px;
+    }
+    .container h2 b {
+        font-size: 38px;
+    }
+    .container h2 small {
+        font-size: 13px;
+    }
+    .close {
+        top: 15px;
+        right: 40px;
+        font-size: 40px;
+    }
 }
 
 
@@ -1121,7 +1112,7 @@ section .btn:hover, section .btn:active {
     }
     .navbar a {
         font-size: 19px;
-        padding: 16px 18px;
+        padding: 10px 12px;
     }
 
     /* Hero Image */
@@ -1216,5 +1207,28 @@ section .btn:hover, section .btn:active {
         width: 320px;
         padding-left: 0px;
         padding-right: 0px;
+    }
+    .container h2 {
+        line-height: 20px;
+    }
+    .container h2 b {
+        font-size: 36px;
+        margin-top: 28px;
+        margin-bottom: 20px;
+    }
+    .container h2 small {
+        font-size: 12px;
+        letter-spacing: .09em;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .close {
+        top: 13px;
+        right: 25px;
+        font-size: 30px;
+
+    }
+    .container h2 {
+        margin: 20px 0 22px;
     }
 }
