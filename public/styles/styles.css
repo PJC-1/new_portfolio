@@ -29,8 +29,8 @@ body, html {
 }
 
 .hero-text h1 {
-    font-size: 62px;
-    margin-bottom: 3px;
+    font-size: 60px;
+    margin-bottom: 4px;
 }
 
 .hero-text p {
@@ -487,6 +487,14 @@ section .btn:hover, section .btn:active {
 /********************************/
 
 @media screen and (max-width: 1300px)  {
+    .hero-text h1 {
+        font-size: 58px;
+        margin-bottom: 3px;
+    }
+    .hero-text p {
+        font-size: 24px;
+        margin-top: 0px;
+    }
     .about-container {
         margin-right: auto;
         margin-left: auto;
@@ -498,7 +506,7 @@ section .btn:hover, section .btn:active {
         width: 29%;
     }
     .icon-row {
-        width: 1000px;
+        width: 1030px;
     }
 
     /* Navigation Bar */
@@ -532,6 +540,10 @@ section .btn:hover, section .btn:active {
 /********************************/
 
 @media screen and (max-width: 1200px)  {
+    .hero-text h1 {
+        font-size: 57px;
+        margin-bottom: 2px;
+    }
     .about-container {
         margin-right: auto;
         margin-left: auto;
@@ -543,8 +555,8 @@ section .btn:hover, section .btn:active {
         margin: 60px 0 135px;
     }
     .icon-div {
-        width: 65%;
-        float: none;
+        width: 27%;
+        float: left;
         margin-left: auto;
         margin-right: auto;
         /* float: left;
@@ -554,7 +566,7 @@ section .btn:hover, section .btn:active {
     }
     .icon-row {
         /* display: inline-block; */
-        width: 830px;
+        width: 980px;
     }
     .icon-div p {
         margin: 0px auto 160px;
@@ -596,6 +608,14 @@ section .btn:hover, section .btn:active {
 /********************************/
 
 @media screen and (max-width: 1100px)  {
+    .hero-text h1 {
+        font-size: 54px;
+        margin-bottom: 0px;
+    }
+
+    .hero-text p {
+        font-size: 23px;
+    }
     .about-container {
         margin-right: auto;
         margin-left: auto;
@@ -607,13 +627,13 @@ section .btn:hover, section .btn:active {
         margin: 50px 0 110px;
     }
     .icon-div {
-        width: 65%;
-        float: none;
+        width: 27%;
+        float: left;
         margin-left: auto;
         margin-right: auto;
     }
     .icon-row {
-        width: 650px;
+        width: 900px;
     }
     .icon-div p {
         margin: 0px auto 150px;
@@ -686,12 +706,9 @@ section .btn:hover, section .btn:active {
     /* Hero Image */
     .hero-text h1 {
         font-size: 50px;
-        margin-bottom: 2px;
     }
     .hero-text p {
         font-size: 20px;
-        font-style: italic;
-        margin-top: 2px;
     }
     .arrow-text {
         top: 83%;
@@ -720,11 +737,14 @@ section .btn:hover, section .btn:active {
         padding-right: 15px;
         width: 750px;
     }
+    .icon-row {
+        width: 750px;
+    }
     .icon-div {
-        float: none;
+        float: left;
         margin-left: auto;
         margin-right: auto;
-        width: 610px;
+        width: 27%;
     }
     .icon-div p {
         margin: 0px auto 140px;
@@ -769,12 +789,9 @@ section .btn:hover, section .btn:active {
     /* Hero Image */
     .hero-text h1 {
         font-size: 47px;
-        margin-bottom: 1px;
     }
     .hero-text p {
-        font-size: 18px;
-        font-style: italic;
-        margin-top: 1px;
+        font-size: 19px;
     }
     .arrow-text {
         top: 82%;
@@ -801,6 +818,9 @@ section .btn:hover, section .btn:active {
         margin-left: auto;
         padding-left: 15px;
         padding-right: 15px;
+        width: 650px;
+    }
+    .icon-row {
         width: 650px;
     }
     .icon-div {
@@ -1003,12 +1023,9 @@ section .btn:hover, section .btn:active {
     /* Hero Image */
     .hero-text h1 {
         font-size: 43px;
-        margin-bottom: 0px;
     }
     .hero-text p {
         font-size: 17px;
-        font-style: italic;
-        margin-top: 0px;
     }
     .arrow-text {
         top: 81%;
@@ -1118,12 +1135,9 @@ section .btn:hover, section .btn:active {
     /* Hero Image */
     .hero-text h1 {
         font-size: 29px;
-        margin-bottom: 0px;
     }
     .hero-text p {
         font-size: 12px;
-        font-style: italic;
-        margin-top: 0px;
     }
     .arrow-text {
         top: 80%;
