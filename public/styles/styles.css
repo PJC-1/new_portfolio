@@ -94,7 +94,7 @@ body, html {
 
 #about {
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 0 180px;
 }
 
 #about h1 {
@@ -104,8 +104,8 @@ body, html {
 }
 
 .about-description {
-    margin: 30px 0 90px;
-    line-height: 36px;
+    margin: 50px 0 130px;
+    line-height: 42px;
     font-size: 24px;
     text-align: justify;
 }
@@ -134,7 +134,7 @@ body, html {
 }
 
 .icon-div h3 {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .icon-div p {
@@ -156,7 +156,7 @@ body, html {
 
 #projects {
     text-align: center;
-    /* padding: 100px 0 0; */
+    padding: 30px 0 180px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -519,6 +519,9 @@ section .btn:hover, section .btn:active {
     #about h1 {
         font-size: 49px;
     }
+    .about-description {
+        margin: 48px 0 85px;
+    }
 
     /* Projects */
     .project-title {
@@ -557,7 +560,7 @@ section .btn:hover, section .btn:active {
         width: 950px;
     }
     .about-description {
-        margin: 60px 0 135px;
+        margin: 40px 0 80px;
     }
     .icon-div {
         width: 27%;
@@ -574,7 +577,7 @@ section .btn:hover, section .btn:active {
         width: 980px;
     }
     .icon-div p {
-        margin: 0px auto 160px;
+        margin: 0px auto 20px;
     }
 
     /* Navigation Bar */
@@ -634,7 +637,8 @@ section .btn:hover, section .btn:active {
         width: 850px;
     }
     .about-description {
-        margin: 50px 0 110px;
+        line-height: 40px;
+        font-size: 23px;
     }
     .icon-div {
         width: 27%;
@@ -646,7 +650,7 @@ section .btn:hover, section .btn:active {
         width: 900px;
     }
     .icon-div p {
-        margin: 0px auto 150px;
+        margin: 0px auto 20px;
     }
 
     /* Navigation Bar */
@@ -733,9 +737,9 @@ section .btn:hover, section .btn:active {
         margin-top: 18px;
     }
     .about-description {
-        margin: 50px 0 130px;
+        margin: 40px 0 95px;
         line-height: 39px;
-        font-size: 26px;
+        font-size: 23px;
     }
     .about-container {
         margin-right: auto;
@@ -754,7 +758,7 @@ section .btn:hover, section .btn:active {
         width: 27%;
     }
     .icon-div p {
-        margin: 0px auto 140px;
+        margin: 0px auto 20px;
     }
 
     /* Projects */
@@ -814,8 +818,8 @@ section .btn:hover, section .btn:active {
     }
     .about-description {
         margin: 50px 0 130px;
-        line-height: 38px;
-        font-size: 24px;
+        line-height: 40px;
+        font-size: 25px;
     }
     .about-container {
         margin-right: auto;
@@ -831,10 +835,15 @@ section .btn:hover, section .btn:active {
         float: none;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
         width: 610px;
     }
     .icon-div p {
-        margin: 0px auto 130px;
+        margin: 0px auto 20px;
+    }
+    .icon-div h3 {
+        font-size: 25px;
     }
 
     /* Projects */
@@ -882,9 +891,6 @@ section .btn:hover, section .btn:active {
         padding-right: 15px;
         width: 600px;
     }
-    .about-description {
-        margin: 50px 0 125px;
-    }
     .icon-row  {
         width: 600px;
     }
@@ -895,12 +901,19 @@ section .btn:hover, section .btn:active {
         width: 560px;
     }
     .icon-div p {
-        margin: 0px auto 120px;
+        margin: 0px auto 20px;
     }
 
     /* About */
     #about h1 {
         font-size: 44px;
+    }
+    .about-description {
+        line-height: 38px;
+        font-size: 23px;
+    }
+    .icon-div h3 {
+        font-size: 24px;
     }
 
     /* Projects */
@@ -949,7 +962,8 @@ section .btn:hover, section .btn:active {
         width: 500px;
     }
     .about-description {
-        margin: 50px 0 125px;
+        line-height: 36px;
+        font-size: 22px;
     }
     .icon-row {
         width: 500px;
@@ -959,12 +973,15 @@ section .btn:hover, section .btn:active {
         width: 460px;
     }
     .icon-div p {
-        margin: 0px auto 110px;
+        margin: 0px auto 20px;
     }
 
     /* About */
     #about h1 {
         font-size: 42px;
+    }
+    .icon-div h3 {
+        font-size: 23px;
     }
 
     /* Projects */
@@ -1054,9 +1071,9 @@ section .btn:hover, section .btn:active {
         margin-top: 10px;
     }
     .about-description {
-        margin: 50px 0 110px;
-        line-height: 35px;
-        font-size: 23px;
+        margin: 50px 0 130px;
+        line-height: 39px;
+        font-size: 20px;
     }
     .about-container {
         margin-right: auto;
@@ -1075,10 +1092,10 @@ section .btn:hover, section .btn:active {
         margin-right: auto;
     }
     .icon-div p {
-        margin: 0px auto 100px;
+        margin: 0px auto 20px;
     }
     .icon-div h3 {
-        font-size: 27px;
+        font-size: 22px;
     }
     .icon-images {
         font-size: 55px;
@@ -1159,7 +1176,7 @@ section .btn:hover, section .btn:active {
 
     /* About */
     #about {
-        padding: 80px 0;
+        padding: 80px 0 175px;
     }
     #about h1 {
         font-size: 29px;
@@ -1193,7 +1210,7 @@ section .btn:hover, section .btn:active {
         padding-right: 0px;
     }
     .icon-div p {
-        margin: 0px auto 95px;
+        margin: 0px auto 20px;
     }
     .icon-div h3 {
         font-size: 20px;
