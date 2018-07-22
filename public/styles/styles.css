@@ -280,7 +280,6 @@ body, html {
     margin-bottom: 40px;
     font-weight: bold;
     letter-spacing: -0.105em;
-    /* font-style: normal; */
 }
 
 .project-description {
@@ -527,6 +526,9 @@ section .btn:hover, section .btn:active {
     .project-title {
         width: 1000px;
     }
+    #projects h1 {
+        font-size: 49px;
+    }
 
     /* Modal */
     .container {
@@ -592,10 +594,17 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects h1 {
+        font-size: 48px;
+    }
     .project-description {
+        font-size: 22px;
         padding-left: 25px;
         padding-right: 25px;
-        /* font-size: 17px; */
+    }
+    #projects .project-row .project-item-name-div h1 {
+        font-size: 40px;
+        margin-bottom: 38px;
     }
     #projects .project-row .project-item-name-div p {
         font-size: 14px;
@@ -663,26 +672,11 @@ section .btn:hover, section .btn:active {
     .project-title {
         width: 850px;
     }
-    #projects .project-row .project-item-name {
-        background: rgba(0,0,0,.5);
-        opacity: 1;
-    }
-    .project-li {
-        width: 100%;
-    }
-    .project-row li {
-        height: 615px;
-    }
     .project-description {
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-    #projects .project-row .project-item-name-div h1 {
-        font-size: 50px;
+        font-size: 21px;
     }
     #projects .project-row .project-item-name-div p {
-        font-size: 19px;
-        letter-spacing: .16em;
+        font-size: 13px;
     }
 
     /* Modal */
@@ -762,15 +756,24 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
-    .project-row li {
-        height: 560px;
+    #projects h1 {
+        font-size: 47px;
+        margin-top: 18px;
     }
     .project-title {
         width: 750px;
     }
-    #projects .project-row .project-item-name {
-        background: rgba(0,0,0,.5);
-        opacity: 1;
+    .project-description {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #projects .project-row .project-item-name-div h1 {
+        font-size: 36px;
+    }
+    #projects .project-row .project-item-name-div p {
+        font-size: 13px;
+        letter-spacing: .05em;
     }
 
     /* Modal */
@@ -847,15 +850,34 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects h1 {
+        font-size: 46px;
+        margin-top: 15px;
+    }
     .project-title {
         width: 650px;
+    }
+    .project-li {
+        width: 100%;
     }
     .project-row li {
         height: 500px;
     }
     .project-description {
+        font-size: 26px;
         padding-left: 175px;
         padding-right: 175px;
+    }
+    #projects .project-row .project-item-name-div h1 {
+        display: block;
+        font-size: 42px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        letter-spacing: -0.105em;
+    }
+    #projects .project-row .project-item-name-div p {
+        font-size: 16px;
+        letter-spacing: .12em;
     }
     #projects .project-row .project-item-name {
         background: rgba(0,0,0,.5);
@@ -917,6 +939,9 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects h1 {
+        font-size: 44px;
+    }
     .project-title {
         width: 600px;
     }
@@ -985,6 +1010,9 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects h1 {
+        font-size: 42px;
+    }
     .project-title {
         width: 500px;
     }
@@ -1102,6 +1130,10 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
     .project-title {
         width: 420px;
     }
@@ -1220,6 +1252,10 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects h1 {
+        font-size: 29px;
+        margin-top: 5px;
+    }
     .project-title {
         width: 290px;
     }
