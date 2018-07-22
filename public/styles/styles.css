@@ -94,7 +94,7 @@ body, html {
 
 #about {
     text-align: center;
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 #about h1 {
@@ -104,9 +104,9 @@ body, html {
 }
 
 .about-description {
-    margin: 70px 0 115px;
-    line-height: 45px;
-    font-size: 28px;
+    margin: 30px 0 90px;
+    line-height: 36px;
+    font-size: 24px;
     text-align: justify;
 }
 
@@ -134,7 +134,7 @@ body, html {
 }
 
 .icon-div h3 {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .icon-div p {
@@ -143,9 +143,9 @@ body, html {
 }
 
 .icon-images {
-    font-size: 62px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    font-size: 58px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 
@@ -515,6 +515,11 @@ section .btn:hover, section .btn:active {
         font-size: 23px;
     }
 
+    /* About */
+    #about h1 {
+        font-size: 49px;
+    }
+
     /* Projects */
     .project-title {
         width: 1000px;
@@ -576,6 +581,11 @@ section .btn:hover, section .btn:active {
     .navbar a {
         padding: 13px 13px;
         font-size: 22px;
+    }
+
+    /* About */
+    #about h1 {
+        font-size: 48px;
     }
 
     /* Projects */
@@ -718,11 +728,8 @@ section .btn:hover, section .btn:active {
     }
 
     /* About */
-    #about {
-        padding: 90px 0;
-    }
     #about h1 {
-        font-size: 50px;
+        font-size: 47px;
         margin-top: 18px;
     }
     .about-description {
@@ -801,11 +808,8 @@ section .btn:hover, section .btn:active {
     }
 
     /* About */
-    #about {
-        padding: 85px 0;
-    }
     #about h1 {
-        font-size: 47px;
+        font-size: 46px;
         margin-top: 15px;
     }
     .about-description {
@@ -894,6 +898,11 @@ section .btn:hover, section .btn:active {
         margin: 0px auto 120px;
     }
 
+    /* About */
+    #about h1 {
+        font-size: 44px;
+    }
+
     /* Projects */
     .project-title {
         width: 600px;
@@ -951,6 +960,11 @@ section .btn:hover, section .btn:active {
     }
     .icon-div p {
         margin: 0px auto 110px;
+    }
+
+    /* About */
+    #about h1 {
+        font-size: 42px;
     }
 
     /* Projects */
@@ -1035,11 +1049,8 @@ section .btn:hover, section .btn:active {
     }
 
     /* About */
-    #about {
-        padding: 82px 0;
-    }
     #about h1 {
-        font-size: 43px;
+        font-size: 40px;
         margin-top: 10px;
     }
     .about-description {
