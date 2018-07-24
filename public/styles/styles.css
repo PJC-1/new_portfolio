@@ -156,9 +156,10 @@ body, html {
 
 #projects {
     text-align: center;
-    padding: 30px 0 180px;
+    padding: 30px 0 30px;
     margin-right: auto;
     margin-left: auto;
+    height: 100%;
 }
 
 .project-title {
@@ -479,6 +480,51 @@ section .btn:hover, section .btn:active {
     color: #ba6c65;
 }
 
+.modal-desc-p {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: normal;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+
+
+/***********/
+/* CONTACT */
+/***********/
+
+#contact {
+    text-align: center;
+    padding: 30px 0 180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-title {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+}
+
+#contact h1 {
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+.contact-description {
+    margin: 50px 0 130px;
+}
+
+.circle-img {
+    border-radius: 50%;
+    border: 6px solid #efefef;
+    max-width: 230px;
+    margin: 25px auto 20px;
+}
+
 
 
 /********************************/
@@ -530,6 +576,14 @@ section .btn:hover, section .btn:active {
         font-size: 49px;
     }
 
+    /* Contact */
+    .contact-title {
+        width: 1000px;
+    }
+    #contact h1 {
+        font-size: 49px;
+    }
+
     /* Modal */
     .container {
         width: 700px;
@@ -540,6 +594,9 @@ section .btn:hover, section .btn:active {
     }
     .item-content header {
         padding-top: 20px;
+    }
+    .modal-desc-p {
+        margin-bottom: 65px;
     }
 }
 
@@ -614,12 +671,23 @@ section .btn:hover, section .btn:active {
         width: 950px;
     }
 
+    /* Contact */
+    .contact-title {
+        width: 950px;
+    }
+    #contact h1 {
+        font-size: 48px;
+    }
+
     /* Modal */
     .container {
         width: 625px;
     }
     .item-content header {
         padding-top: 10px;
+    }
+    .modal-desc-p {
+        margin-bottom: 60px;
     }
 }
 
@@ -679,6 +747,11 @@ section .btn:hover, section .btn:active {
         font-size: 13px;
     }
 
+    /* Contact */
+    .contact-title {
+        width: 850px;
+    }
+
     /* Modal */
     .container {
         width: 575px;
@@ -695,6 +768,9 @@ section .btn:hover, section .btn:active {
     }
     .item-content header {
         padding-top: 5px;
+    }
+    .modal-desc-p {
+        margin-bottom: 55px;
     }
 }
 
@@ -776,6 +852,14 @@ section .btn:hover, section .btn:active {
         letter-spacing: .05em;
     }
 
+    /* Contact */
+    .contact-title {
+        width: 750px;
+    }
+    #contact h1 {
+        font-size: 47px;
+    }
+
     /* Modal */
     .container {
         width: 525px;
@@ -789,6 +873,11 @@ section .btn:hover, section .btn:active {
     .close {
         top: 15px;
         right: 42px;
+    }
+    .modal-desc-p {
+        font-size: 19px;
+        line-height: 33px;
+        margin-bottom: 50px;
     }
 }
 
@@ -850,6 +939,9 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects {
+        height: 256%;
+    }
     #projects h1 {
         font-size: 46px;
         margin-top: 15px;
@@ -883,6 +975,15 @@ section .btn:hover, section .btn:active {
         background: rgba(0,0,0,.5);
         opacity: 1;
     }
+
+    /* Contact */
+    .contact-title {
+        width: 650px;
+    }
+    #contact h1 {
+        font-size: 46px;
+    }
+
     /* Modal */
     .container {
         width: 500px;
@@ -896,6 +997,11 @@ section .btn:hover, section .btn:active {
     .close {
         top: 10px;
         right: 38px;
+    }
+    .modal-desc-p {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 45px;
     }
 }
 
@@ -957,6 +1063,14 @@ section .btn:hover, section .btn:active {
         opacity: 1;
     }
 
+    /* Contact */
+    .contact-title {
+        width: 600px;
+    }
+    #contact h1 {
+        font-size: 44px;
+    }
+
     /* Modal */
     .container {
         width: 475px;
@@ -969,6 +1083,11 @@ section .btn:hover, section .btn:active {
     }
     .container h2 small {
         font-size: 15px;
+    }
+    .modal-desc-p {
+        font-size: 17px;
+        line-height: 31px;
+        margin-bottom: 40px;
     }
 }
 
@@ -1032,6 +1151,14 @@ section .btn:hover, section .btn:active {
         opacity: 1;
     }
 
+    /* Contact */
+    .contact-title {
+        width: 500px;
+    }
+    #contact h1 {
+        font-size: 42px;
+    }
+
     /* Modal */
     .container {
         width: 450px;
@@ -1044,6 +1171,11 @@ section .btn:hover, section .btn:active {
     }
     .container h2 small {
         font-size: 14px;
+    }
+    .modal-desc-p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 35px;
     }
 }
 
@@ -1156,6 +1288,14 @@ section .btn:hover, section .btn:active {
         opacity: 1;
     }
 
+    /* Contact */
+    .contact-title {
+        width: 420px;
+    }
+    #contact h1 {
+        font-size: 40px;
+    }
+
     /* Modal */
     .container {
         width: 425px;
@@ -1173,6 +1313,11 @@ section .btn:hover, section .btn:active {
         top: 15px;
         right: 40px;
         font-size: 40px;
+    }
+    .modal-desc-p {
+        font-size: 15px;
+        line-height: 29px;
+        margin-bottom: 30px;
     }
 }
 
@@ -1252,6 +1397,9 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects {
+        height: 205%;
+    }
     #projects h1 {
         font-size: 29px;
         margin-top: 5px;
@@ -1279,6 +1427,15 @@ section .btn:hover, section .btn:active {
         background: rgba(0,0,0,.5);
         opacity: 1;
     }
+
+    /* Contact */
+    .contact-title {
+        width: 290px;
+    }
+    #contact h1 {
+        font-size: 29px;
+    }
+
 
     /* Modal */
     .container {
@@ -1308,5 +1465,12 @@ section .btn:hover, section .btn:active {
     }
     .container h2 {
         margin: 20px 0 22px;
+    }
+    .modal-desc-p {
+        font-size: 14px;
+        line-height: 28px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 28px;
     }
 }
