@@ -562,7 +562,7 @@ section .btn:hover, section .btn:active {
 }
 
 .footer-container {
-    width: 1170px;
+    width: 1150px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
@@ -747,6 +747,9 @@ section .btn:hover, section .btn:active {
     #contact h1 {
         font-size: 48px;
     }
+    .footer-container {
+        width: 1050px;
+    }
 
     /* Modal */
     .container {
@@ -819,6 +822,9 @@ section .btn:hover, section .btn:active {
     /* Contact */
     .contact-title {
         width: 850px;
+    }
+    .footer-container {
+        width: 950px;
     }
 
     /* Modal */
@@ -927,6 +933,9 @@ section .btn:hover, section .btn:active {
     }
     #contact h1 {
         font-size: 47px;
+    }
+    .footer-container {
+        width: 850px;
     }
 
     /* Modal */
@@ -1052,6 +1061,9 @@ section .btn:hover, section .btn:active {
     #contact h1 {
         font-size: 46px;
     }
+    .footer-container {
+        width: 750px;
+    }
 
     /* Modal */
     .container {
@@ -1144,6 +1156,25 @@ section .btn:hover, section .btn:active {
         line-height: 24px;
     }
 
+    /* Footer */
+    #footer {
+        height: 40px;
+        padding: 20px 0 20px;
+    }
+    .footer-container {
+        width: 650px;
+    }
+    .footer-div {
+        text-align: center;
+        width: 100%;
+    }
+    .footer-div p {
+        font-size: 14px;
+    }
+    .footer-div a {
+        font-size: 14px;
+    }
+
     /* Modal */
     .container {
         width: 475px;
@@ -1233,6 +1264,9 @@ section .btn:hover, section .btn:active {
     }
     #contact .social-media a {
         font-size: 2.0em;
+    }
+    .footer-container {
+        width: 550px;
     }
 
     /* Modal */
@@ -1373,6 +1407,9 @@ section .btn:hover, section .btn:active {
     }
     #contact .social-media a {
         font-size: 1.8em;
+    }
+    .footer-container {
+        width: 450px;
     }
 
     /* Modal */
@@ -1516,6 +1553,12 @@ section .btn:hover, section .btn:active {
     }
     #contact .social-media a {
         font-size: 1.6em;
+    }
+
+
+    /* Footer */
+    .footer-container {
+        width: 250px;
     }
 
 
