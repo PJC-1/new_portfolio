@@ -519,6 +519,10 @@ section .btn:hover, section .btn:active {
     line-height: 32px;
 }
 
+.contact-description a {
+    text-decoration: none;
+}
+
 .mar-btm-10 {
     margin-bottom: 20px!important;
 }
