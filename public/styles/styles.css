@@ -835,6 +835,10 @@ section .btn:hover, section .btn:active {
     #projects .project-row .project-item-name-div p {
         font-size: 13px;
     }
+    #projects .project-row .project-item-name {
+        background: rgba(0,0,0,.5);
+        opacity: 1;
+    }
 
     /* Contact */
     .contact-title {
@@ -948,6 +952,10 @@ section .btn:hover, section .btn:active {
     #projects .project-row .project-item-name-div p {
         font-size: 13px;
         letter-spacing: .05em;
+    }
+    #projects .project-row .project-item-name {
+        background: rgba(0,0,0,.5);
+        opacity: 1;
     }
 
     /* Contact */
@@ -1160,7 +1168,7 @@ section .btn:hover, section .btn:active {
 
     /* Projects */
     #projects {
-        height: 225%;
+        height: 144%;
     }
     #projects h1 {
         font-size: 44px;
