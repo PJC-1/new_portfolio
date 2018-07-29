@@ -180,6 +180,7 @@ body, html {
 
 .projects-description {
     margin: 50px 0 130px;
+    font-size: 22px;
 }
 
 .project-row {
@@ -213,7 +214,7 @@ body, html {
 }
 
 #project-3 {
-    background: url(../images/polasnap1.jpg) center center no-repeat;
+    background: url(../images/pola-mockup-2.jpg) center center no-repeat;
 }
 
 #projects .project-row .project-item {
@@ -822,6 +823,9 @@ section .btn:hover, section .btn:active {
     .project-description {
         font-size: 21px;
     }
+    .projects-description {
+        font-size: 21px;
+    }
     #projects .project-row .project-item-name-div p {
         font-size: 13px;
     }
@@ -926,6 +930,9 @@ section .btn:hover, section .btn:active {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .projects-description {
+        font-size: 20px;
+    }
     #projects .project-row .project-item-name-div h1 {
         font-size: 36px;
     }
@@ -1025,7 +1032,7 @@ section .btn:hover, section .btn:active {
 
     /* Projects */
     #projects {
-        height: 256%;
+        height: 235%;
     }
     #projects h1 {
         font-size: 46px;
@@ -1038,12 +1045,16 @@ section .btn:hover, section .btn:active {
         width: 100%;
     }
     .project-row li {
-        height: 500px;
+        /* height: 500px; */
+        height: 420px;
     }
     .project-description {
         font-size: 22px;
         padding-left: 175px;
         padding-right: 175px;
+    }
+    .projects-description {
+        font-size: 19px;
     }
     #projects .project-row .project-item-name-div h1 {
         display: block;
@@ -1133,6 +1144,9 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects {
+        height: 225%;
+    }
     #projects h1 {
         font-size: 44px;
     }
@@ -1140,11 +1154,14 @@ section .btn:hover, section .btn:active {
         width: 600px;
     }
     .project-row li {
-        height: 500px;
+        height: 400px;
     }
     .project-description {
         padding-left: 100px;
         padding-right: 100px;
+    }
+    .projects-description {
+        font-size: 18px;
     }
     #projects .project-row .project-item-name {
         background: rgba(0,0,0,.5);
@@ -1240,6 +1257,9 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects {
+        height: 212%;
+    }
     #projects h1 {
         font-size: 42px;
     }
@@ -1247,11 +1267,14 @@ section .btn:hover, section .btn:active {
         width: 500px;
     }
     .project-row li {
-        height: 500px;
+        height: 375px;
     }
     .project-description {
         padding-left: 60px;
         padding-right: 60px;
+    }
+    .projects-description {
+        font-size: 17px;
     }
     #projects .project-row .project-item-name-div p {
         font-size: 18px;
@@ -1293,6 +1316,10 @@ section .btn:hover, section .btn:active {
         font-size: 16px;
         line-height: 30px;
         margin-bottom: 35px;
+    }
+    .btn {
+        padding: 6px 16px;
+        font-size: 13px;
     }
 }
 
@@ -1379,6 +1406,9 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects {
+        height: 200%;
+    }
     #projects h1 {
         font-size: 40px;
         margin-top: 10px;
@@ -1387,11 +1417,14 @@ section .btn:hover, section .btn:active {
         width: 420px;
     }
     .project-row li {
-        height: 500px;
+        height: 350px;
     }
     .project-description {
         padding-left: 35px;
         padding-right: 35px;
+    }
+    .projects-description {
+        font-size: 16px;
     }
     #projects .project-row .project-item-name-div p {
         font-size: 17px;
@@ -1517,7 +1550,7 @@ section .btn:hover, section .btn:active {
 
     /* Projects */
     #projects {
-        height: 205%;
+        height: 185%;
     }
     #projects h1 {
         font-size: 29px;
@@ -1527,11 +1560,14 @@ section .btn:hover, section .btn:active {
         width: 290px;
     }
     .project-row li {
-        height: 375px;
+        height: 325px;
     }
     .project-description {
         padding-left: 20px;
         padding-right: 20px;
+        font-size: 15px;
+    }
+    .projects-description {
         font-size: 15px;
     }
     #projects .project-row .project-item-name-div h1 {
@@ -1596,9 +1632,16 @@ section .btn:hover, section .btn:active {
     }
     .modal-desc-p {
         font-size: 14px;
-        line-height: 28px;
-        margin-left: 12px;
-        margin-right: 12px;
+        line-height: 27px;
+        margin-left: 30px;
+        margin-right: 30px;
         margin-bottom: 28px;
+    }
+    .modal-description {
+        padding: 50px 0;
+    }
+    .btn {
+        padding: 4px 12px;
+        font-size: 11px;
     }
 }
