@@ -646,6 +646,9 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects {
+        height: 95%;
+    }
     .project-title {
         width: 1000px;
     }
@@ -823,6 +826,9 @@ section .btn:hover, section .btn:active {
     }
 
     /* Projects */
+    #projects {
+        height: 86%;
+    }
     .project-title {
         width: 850px;
     }
@@ -1582,7 +1588,7 @@ section .btn:hover, section .btn:active {
 
     /* Projects */
     #projects {
-        height: 185%;
+        height: 156%;
     }
     #projects h1 {
         font-size: 29px;
@@ -1600,6 +1606,7 @@ section .btn:hover, section .btn:active {
         font-size: 15px;
     }
     .projects-description {
+        margin: 50px 0 60px;
         font-size: 15px;
     }
     #projects .project-row .project-item-name-div h1 {
