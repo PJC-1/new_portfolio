@@ -252,15 +252,15 @@ body, html {
 }
 
 #projects .project-row .project-item-name-div h1 {
-      /* -webkit-transform: translate(0,25px);
-      -ms-transform: translate(0,25px);
-      -o-transform: translate(0,25px);
-      transform: translate(0,25px);
-      -webkit-transition: all .2s .05s;
-      -o-transition: all .2s .05s;
-      transition: all .2s .05s;
-      opacity: 0;
-      filter: alpha(opacity=0); */
+    /* -webkit-transform: translate(0,25px);
+    -ms-transform: translate(0,25px);
+    -o-transform: translate(0,25px);
+    transform: translate(0,25px);
+    -webkit-transition: all .2s .05s;
+    -o-transition: all .2s .05s;
+    transition: all .2s .05s;
+    opacity: 0;
+    filter: alpha(opacity=0); */
 }
 
 #projects .project-row .project-item-name-div p {
@@ -512,11 +512,32 @@ section .btn:hover, section .btn:active {
     margin-bottom: 35px;
 }
 
+.cv-description {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+#cv-icon {
+    text-decoration: none;
+    color: black;
+}
+
+.cv-description i {
+    font-size: 37px;
+    margin-left: 5px;
+}
+
+#cv-view {
+    text-decoration: none;
+}
+
 .contact-description {
     font-size: 20px;
     font-weight: 300;
     font-style: normal;
-    margin: 20px 0 40px;
+    margin: 20px 0 50px;
     line-height: 32px;
 }
 
@@ -1208,6 +1229,9 @@ section .btn:hover, section .btn:active {
         font-size: 16px;
         line-height: 24px;
     }
+    .cv-description {
+        font-size: 16px;
+    }
 
     /* Footer */
     #footer {
@@ -1632,6 +1656,9 @@ section .btn:hover, section .btn:active {
     }
     #contact .social-media a {
         font-size: 1.6em;
+    }
+    .cv-description i {
+        font-size: 30px;
     }
 
 
