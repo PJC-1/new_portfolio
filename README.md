@@ -55,3 +55,22 @@ Heroku
 >$ heroku git:remote -a newname
 >```
 >
+
+HTML
+-------------
+> When working with a *drop-down list* there are some helpful attributes which can aid in some typical use-cases.
+> ```selected``` - can be added to an option to make it appear as selected.
+> ```disabled``` - will make the option non-functional.
+> ```hidden``` - will make the option not visible when the list is expanded.
+> *Example*:
+> ```
+><select>
+>    <option selected disabled hidden>Choose here</option>
+>    <option value="1">One</option>
+>    <option value="2">Two</option>
+>    <option value="3">Three</option>
+>    <option value="4">Four</option>
+>    <option value="5">Five</option>
+></select>
+> ```
+> An [post](https://stackoverflow.com/questions/9447134/html-select-how-to-set-default-text-which-wont-be-shown-in-drop-down-list) that explains how to display some *placeholder/default text* that will not be shown as an option in a *drop-down list* (HTML ```select``` element).
