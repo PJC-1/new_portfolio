@@ -73,4 +73,16 @@ HTML
 >    <option value="5">Five</option>
 ></select>
 > ```
-> An [post](https://stackoverflow.com/questions/9447134/html-select-how-to-set-default-text-which-wont-be-shown-in-drop-down-list) that explains how to display some *placeholder/default text* that will not be shown as an option in a *drop-down list* (HTML ```select``` element).
+> A [post](https://stackoverflow.com/questions/9447134/html-select-how-to-set-default-text-which-wont-be-shown-in-drop-down-list) that explains how to display some *placeholder/default text* that will not be shown as an option in a *drop-down list* (HTML ```select``` element).
+
+> If you want to enable a ```horizontal scrolling``` bar when a window is a specific width, you can use the following snippet.
+>
+> ```
+>@media (max-width: 600px) {
+>    body {
+>        overflow-x: auto;
+>    }
+>}
+> ```
+>
+> A [post](https://stackoverflow.com/questions/41886975/allow-horizontal-scrolling-when-window-is-a-specific-width-with-overflow-xhidde) that has a snippet and explanation on how to allow ```horizontal scrolling``` with ```overflow-x``` *css property*.
